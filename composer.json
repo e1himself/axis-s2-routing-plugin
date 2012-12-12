@@ -7,7 +7,7 @@
     "installer-name": "AxisS2RoutingPlugin"
   },
 
-  "keywords": ["symfony", "routing", "plugin", "symfony/routing"],
+  "keywords": ["symfony", "routing", "plugin", "symfony2 routing"],
   "license": "MIT",
   "homepage": "https://github.com/e1himself/axis-s2-routing-plugin",
 
