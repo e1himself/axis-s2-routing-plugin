@@ -62,7 +62,7 @@ Important notes
 
 * `sfActions::getRoute()` will return `sf2Route` class for new S2 routes
   and `sfRoute` (or subclass) instances for the old ones as it was before.
-  *Be careful*: `sfRoute` is not compatible with symfony1 `sfRoute` instances.
+  *Be careful*: `sf2Route` is not compatible with symfony1 `sfRoute` instances.
 * This is plugin is not compatible with
   [AxisModuleRoutingPlugin](https://github.com/e1himself/axis-module-routing-plugin)
   at the moment.     But I'm working on that.
