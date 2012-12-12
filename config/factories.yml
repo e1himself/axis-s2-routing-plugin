@@ -1,0 +1,19 @@
+all:
+#  routing:
+#    class: \Axis\S1\S2Routing\Routing
+#    param:
+#      router: @axis.s2routing.router
+#      generate_shortest_url:            true
+#      extra_parameters_as_query_string: true
+
+  axis.s2routing.router:
+    class: \Symfony\Component\Routing\Router
+    parameters:
+      loader:   @axis.s2routing.loader
+      resource: config/routing.yml
+      options:
+        debug: config://sf_debug
+        cache_dir: %SF_APP_CACHE_DIR%
+
+  axis.s2routing.loader:
+    class: \Axis\S1\S2Routing\Loader
