@@ -3,6 +3,14 @@ AxisS2RoutingPlugin
 
 symfony 1.x plugin that integrates Symfony2 routing component into your application.
 
+It is a kinda failed try to bring Symfony2 routes into symfony1. But `sfPatternRouting` class is 
+way too strong interwoven into symfony1 that it is practically impossible to replace it with other
+routing class. 
+
+See [AxisCurlyRoutingPlugin](https://github.com/e1himself/axis-curly-routing-plugin). It uses Symfony2 routing system
+on a lower level (without replaceing sfPatternRouting but just introducing new route class).
+
+
 Installation
 ------------
 
